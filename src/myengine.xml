@@ -1,0 +1,26 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<component>
+    <name>org.freedesktop.IBus.Myengine</name>
+    <description>Myengine Component</description>
+    <exec>/usr/libexec/ibus-engine-myengine --ibus</exec>
+    <version>1.2.99.20210512</version>
+    <author>HCC &lt;1787594808@qq.com&gt;</author>
+    <license>GPL</license>
+    <homepage>http://code.google.com/p/ibus</homepage>
+    <textdomain>ibus-myengine</textdomain>
+
+    <engines>
+        <engine>
+            <name>myengine</name>
+            <language>zh</language>
+            <license>GPL</license>
+            <author>HCC &lt;1787594808@qq.com&gt;</author>
+            <icon>/usr/share/ibus-myengine/icons/ibus-myengine.svg</icon>
+            <layout>us</layout>
+            <longname>MyEngine</longname>
+            <description>MyEngine Input Method</description>
+            <rank>0</rank>
+        </engine>
+    </engines>
+
+</component>
